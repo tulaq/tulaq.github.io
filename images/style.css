@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.wrap{
+	width: 1180px;
+	padding: 0 0px;
+	margin: 0 auto;
+}
+
+#yetou{
+	background-color: #d8b597;
+	height: 100px;
+}
+#logo{
+	float: left;
+}
+#nav{
+	float: right;
+	height: 100px;
+}
+#nav li{
+	float: left;
+	margin-left: 30px;
+	height: 100px;
+	line-height: 100px;
+}
+#nav li a{
+	color: #FFFFFF;
+	text-decoration:none
+}
+#zhuti{
+	background-color: #FFFFFF;
+}
+#yejiao{
+	background-color: #000000;
+}
+.di{
+	color: #FFFFFF;
+}
