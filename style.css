@@ -1,43 +1,102 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-ul,li{
+
+ul,
+li {
 	list-style: none;
 }
-.wrap{
+
+.wrap {
 	width: 1180px;
-	padding: 0 0px;
 	margin: 0 auto;
 }
+.wrap1{
+	background-color: aliceblue;
+	padding: 0 0 30px 0;
+}
+.wrap2{
+	background-color: #f4f4f4;
+	padding: 0 0 30px 0;
+}
+#yetou {
+	background-color: #D8B597;
+	height: 50px;
+}
 
-#yetou{
-	background-color: #d8b597;
-	height: 100px;
-}
-#logo{
+#logo {
 	float: left;
+	height: 50px;
 }
-#nav{
+
+#nav {
 	float: right;
-	height: 100px;
 }
-#nav li{
+
+#nav li {
 	float: left;
 	margin-left: 30px;
-	height: 100px;
-	line-height: 100px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 }
-#nav li a{
-	color: #FFFFFF;
-	text-decoration:none
+
+#nav li a {
+	color: #fff;
+	height: 50px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
 }
-#zhuti{
-	background-color: #FFFFFF;
+#nav li a:hover{
+	background-color: #8f5f56;
 }
-#yejiao{
-	background-color: #000000;
+#one{
+	background-color: #8f5f56;
+}
+#banner{
+	/* background-color: blue; */
+	/* text-align: center; */
+/* 	padding: 10px 0; */
+}
+#banner img{
+	display: block;
+	margin: 0 auto;
+}
+#zhuti {
+	/* background-color: aliceblue; */
+	text-align: center;
+}
+#zhuti h2{
+	/* background-color: #8F5F56; */
+	padding: 50px 0;
+}
+#zhuti p{
+	/* background-color: gold; */
+}
+.wrap{
+	/* background-color: red; */
+}
+.box{
+	/* background-color: pink; */
+	width: 1180px;
+	margin: 0 auto;
+}
+.box h2{
+	padding:30px 0 10px 0;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.box p{
+	padding:20px 0;
+}
+#yejiao {
+	background-color: #333;
 }
 .di{
+	width: 1180px;
+	margin: 0 auto;
 	color: #FFFFFF;
+	text-align: center;
 }
