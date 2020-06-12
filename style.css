@@ -3,32 +3,48 @@
 	padding: 0;
 }
 
-ul,
-li {
+body {
+	font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1,
+sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
 	list-style: none;
+}
+
+#header {
+	background-color: #D8B597;
 }
 
 .wrap {
 	width: 1180px;
 	margin: 0 auto;
 }
-.wrap1{
-	background-color: aliceblue;
-	padding: 0 0 30px 0;
-}
-.wrap2{
-	background-color: #f4f4f4;
-	padding: 0 0 30px 0;
-}
-#yetou {
-	background-color: #D8B597;
-	height: 50px;
-}
 
-#logo {
-	float: left;
-	height: 50px;
+#banner {
+	
+	background: url(4.jpg) no-repeat center -350px;
+	height: 550px;
 }
+#banner div{
+	color: #FFFFFF;
+	width: 1180px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	
+}
+#banner h2{
+	font-size: 60px;
+}
+#banner p{
+	font-size: 24px;
+}
+#logo {}
 
 #nav {
 	float: right;
@@ -49,54 +65,82 @@ li {
 	text-align: center;
 	text-decoration: none;
 }
-#nav li a:hover{
+
+#nav li a:hover {
 	background-color: #8f5f56;
 }
 #one{
 	background-color: #8f5f56;
 }
-#banner{
-	/* background-color: blue; */
-	/* text-align: center; */
-/* 	padding: 10px 0; */
+#main {
 }
-#banner img{
-	display: block;
-	margin: 0 auto;
-}
-#zhuti {
-	/* background-color: aliceblue; */
-	text-align: center;
-}
-#zhuti h2{
-	/* background-color: #8F5F56; */
-	padding: 50px 0;
-}
-#zhuti p{
-	/* background-color: gold; */
-}
-.wrap{
-	/* background-color: red; */
-}
-.box{
-	/* background-color: pink; */
-	width: 1180px;
-	margin: 0 auto;
-}
-.box h2{
-	padding:30px 0 10px 0;
-	text-align: center;
-	border-bottom: 1px solid #ccc;
-}
-.box p{
-	padding:20px 0;
-}
-#yejiao {
-	background-color: #333;
-}
-.di{
-	width: 1180px;
-	margin: 0 auto;
+
+#footer {
+	background-color: #D8B597;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+.about {
+	background-color: #fefbeb;
+}
+
+.skill {
+	background-color: #dff9fe;
+}
+
+.works {
+	background-color: #fefbeb;
+}
+
+.experience {
+	background-color: #dff9fe;
+}
+
+.w1180 {
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+	width: 400px;
+}
+
+.right {
+	float: right;
+	width: 720px;
+	line-height: 30px;
+}
+.right h2{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.left img {
+	width: 400px;
+	display: block;
+}
+
+.box {
+	width: 295px;
+	height: 150px;
+	float: left;
+}
+
+.box img {
+	width: 80px;
+}
+
+.box .left2 {
+	float: left;
+	width: 80px;
+	line-height: 215px;
+}
+
+.box .right2 {
+	float: left;
+	width: 215px;
+	line-height: 150px;
 }
